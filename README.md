@@ -1,2 +1,2 @@
-# dota2ahk
+# dotahk
 Dota2 AutoHotKey scripts
