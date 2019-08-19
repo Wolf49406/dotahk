@@ -5,8 +5,8 @@
 
 ## Legion Commander
 ```
-Press the Attack на себя
 Blade Mail (в моём случае на клавишу Tab)
+Press the Attack на себя
 Blink Dagger (пробел) в область под курсором
 ```
 Для использования обычных клавиш (не Tab/Shift/Ctrl/etc) - замени {*key*} на *key*, без скобок.
@@ -15,3 +15,4 @@ Blink Dagger (пробел) в область под курсором
 ```
 X Marks > Torrent > X Marks в область под курсором
 ```
+*После использования X Marks скрипт считывает/фиксирует положение курсора для более точного каста Torrent'а*
