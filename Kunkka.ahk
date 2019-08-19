@@ -5,10 +5,8 @@
 #Persistent
 
 ~e::
-MouseGetPos xpos, ypos
-Sleep 100
-MouseMove %xpos%, %ypos%
+Sleep 400
 SendInput q
-Sleep 1500
+Sleep 1200
 SendInput e
 return
