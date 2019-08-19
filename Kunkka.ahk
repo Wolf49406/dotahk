@@ -5,8 +5,9 @@
 #Persistent
 
 f:: 
-SendInput, e
-Sleep 100
+SendInput e
+MouseGetPos xpos, ypos
+MouseMove %xpos%, %ypos%
 SendInput q
 Sleep 1600
 SendInput e
