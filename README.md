@@ -1,7 +1,7 @@
 # Dota2 AutoHotKey scripts
 
 Набор ahk-скриптов улучшающих геймплей Dota 2  
-*Требуется установленный autohotkey*  
+*Требуется установленный [autohotkey](https://www.autohotkey.com/)*  
 
 ## Legion Commander
 ```
