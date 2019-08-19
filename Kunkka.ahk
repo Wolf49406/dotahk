@@ -4,11 +4,11 @@
 #SingleInstance, force
 #Persistent
 
-f:: 
-SendInput e
+~e::
 MouseGetPos xpos, ypos
+Sleep 100
 MouseMove %xpos%, %ypos%
 SendInput q
-Sleep 1600
+Sleep 1500
 SendInput e
 return
