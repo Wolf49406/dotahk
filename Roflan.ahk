@@ -12,9 +12,10 @@
 #Persistent
 
 l::
-Loop {
+Loop 
+{
 SendInput 0
-Sleep 11000
+Sleep 100
 If GetKeyState("p", "P")
 Break
 }
