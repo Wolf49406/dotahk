@@ -6,8 +6,8 @@
 
 ~e::
 BlockInput, MouseMove
-SendInput q
+SendInput, q
 BlockInput, MouseMoveOff
 Sleep 1600
-SendInput e
+SendInput, e
 return
