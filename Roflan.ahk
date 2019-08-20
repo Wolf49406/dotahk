@@ -3,7 +3,7 @@
 ; для того, чтобы герой постоянно рофлил в голос и это нельзя было замутать, пропиши в консоль 
 ; bind 0 "say /laugh"
 ; Вместо 0 можешь здесь и после "SendInput" назначить свою кнопку. 
-; Включается по кнопке l, выключается по p
+; Включается по Numpad1, выключается по Numpad2
 
 #NoEnv
 #UseHook
@@ -11,19 +11,19 @@
 #SingleInstance, force
 #Persistent
 
-l::
+Numpad1::
 Loop 
 {
 SendInput 0
 Sleep 100
-If GetKeyState("p", "P")
+If GetKeyState("Numpad2", "P")
 Break
 }
 return
 
-; по нажатию 9 пишет в общий чат... что-нибудь.
+; по нажатию Numpad3 пишет в общий чат... что-нибудь.
 
-9::
+Numpad3::
 Send +{enter}
 SendRaw Легкая прогулка за +25
 Send {enter}
