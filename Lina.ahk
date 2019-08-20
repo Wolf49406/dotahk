@@ -7,6 +7,6 @@
 ~{TAB}::
 BlockInput, MouseMove
 Sleep 2000
-SendInput w
+SendInput, w
 BlockInput, MouseMoveOff
 return
