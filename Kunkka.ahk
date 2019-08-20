@@ -5,8 +5,9 @@
 #Persistent
 
 ~e::
-Sleep 400
+BlockInput, MouseMove
 SendInput q
-Sleep 1200
+BlockInput, MouseMoveOff
+Sleep 1600
 SendInput e
 return
