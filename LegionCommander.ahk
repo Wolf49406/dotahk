@@ -5,7 +5,7 @@
 #Persistent
 
 f::
-SendInput {TAB}
-SendInput !w
-SendInput {SPACE}
+SendInput, {TAB}
+SendInput, !w
+SendInput, {SPACE}
 return
