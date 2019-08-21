@@ -4,9 +4,10 @@
 #SingleInstance, force
 #Persistent
 
-~{TAB}::
+~f::
+SendInput {TAB}
 BlockInput, MouseMove
-Sleep 2000
+Sleep 1600
 SendInput w
 BlockInput, MouseMoveOff
 return
