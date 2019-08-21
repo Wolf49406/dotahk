@@ -21,5 +21,5 @@ X Marks > Torrent > X Marks
 ```
 Eul's Scepter (Tab) > Light Strike Array
 ```
-После *ручного* использования Eul's Scepter на цель, скрипт по таймингу кастует Light Strike Array.  
+После нажания клавиши E скрипт использует Eul's Scepter на цель и по таймингу кастует Light Strike Array.  
 **Важно**: на время каста блокируется ввод с мыши. Чтобы это отключить, удали две строчки *BlockInput*.
