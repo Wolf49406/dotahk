@@ -4,10 +4,10 @@
 #SingleInstance, force
 #Persistent
 
-~f::
+f::
 SendInput {TAB}
-BlockInput, MouseMove
+MouseGetPos xpos, ypos
 Sleep 1600
+MouseMove %xpos%, %ypos%
 SendInput w
-BlockInput, MouseMoveOff
 return
