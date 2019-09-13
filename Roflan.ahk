@@ -27,7 +27,6 @@ Numpad3::
   Loop
   { Click, R
     sleep 1
-    If (!GetKeyState("Numpad4","p"))
       break
   }
   Return
