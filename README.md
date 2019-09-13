@@ -22,3 +22,9 @@ X Marks > Torrent > X Marks
 Eul's Scepter (Tab) > Light Strike Array
 ```
 После нажания клавиши E скрипт использует Eul's Scepter на цель и по таймингу кастует Light Strike Array.  
+
+## Shadow Fiend
+```
+Eul's Scepter (Tab) > Requiem of Souls
+```
+После нажания клавиши F скрипт использует Eul's Scepter на цель и по таймингу кастует Requiem of Souls.
