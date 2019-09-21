@@ -33,4 +33,4 @@ Eul's Scepter > Requiem of Souls
 ```
 Soul Ring > Blink > Hex > Dagon > Laser > Missile > Rearm
 ```
-После нажания F прожимается Soul Ring, Blink под курсор и остальные способности. 
+После нажания F прожимается Soul Ring, Blink под курсор и остальные способности. Важно: держи курсор на цели!
