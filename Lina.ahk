@@ -5,9 +5,9 @@
 #Persistent
 
 f::
-SendInput {TAB}
-MouseGetPos xpos, ypos
+SendInput {TAB}             ; Eul's Scepter
+MouseGetPos xpos, ypos      ; Запоминает позицию курсора
 Sleep 1600
-MouseMove %xpos%, %ypos%
-SendInput w
+MouseMove %xpos%, %ypos%    ; Возвращает курсор на позицию
+SendInput w                 ; Light Strike Array
 return
