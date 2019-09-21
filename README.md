@@ -1,6 +1,7 @@
 # Dota2 AutoHotKey scripts
 
 Набор ahk-скриптов улучшающих геймплей Dota 2  
+  
 *Требуется установленный [autohotkey](https://www.autohotkey.com/)*  
 *Для использования обычных клавиш (не Tab/Shift/Ctrl/etc) - замени {*key*} на *key*, без скобок.*
 
