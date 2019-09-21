@@ -5,7 +5,7 @@
 #Persistent
 
 f::
-SendInput {TAB}
-SendInput !w
-SendInput {SPACE}
+SendInput {TAB}     ; Blademail
+SendInput !w        ; Press the Attack
+SendInput {SPACE}   ; Blink Dagger
 return
