@@ -5,8 +5,8 @@
 #Persistent
 
 f::
-SendInput {TAB}
-SendInput m
+SendInput {TAB}     ; Eul's Scepter
+SendInput m         ; Идет в направлении противника
 Sleep 830
-SendInput r
+SendInput r         ; Requiem of Souls
 return
