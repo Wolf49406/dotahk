@@ -5,10 +5,10 @@
 #Persistent
 
 ~e::
-BlockInput, MouseMove
+BlockInput, MouseMove     ; Блок ввода с мыши
 Sleep 100
-SendInput q
-BlockInput, MouseMoveOff
+SendInput q               ; Torrent
+BlockInput, MouseMoveOff  ; Отключение блока
 Sleep 1500
-SendInput e
+SendInput e               ; X-Marks
 return
