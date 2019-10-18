@@ -8,36 +8,33 @@
 
 ## Legion Commander
 ```
-Blade Mail  > Press the Attack > Blink Dagger в область под курсором.
+Blade Mail > Press the Attack > Blink Dagger в область под курсором.
 ```
-Дуэль нужно прожимать вручную.  
+*Можно добавить костомный предмет*
 
 ## Kunkka
 ```
-X Marks > Torrent > X Marks  
+X Marks > Torrent > X Marks
 ```
-После *ручного* использования X Marks на цель, скрипт кастует Torrent и по таймингу отжимает X Marks.  
 
 ## Lina
 ```
 Eul's Scepter > Light Strike Array
 ```
-После нажания E скрипт использует Eul's Scepter на цель и по таймингу кастует Light Strike Array.  
 
 ## Shadow Fiend
 ```
 Eul's Scepter > Requiem of Souls
 ```
-После нажания F скрипт использует Eul's Scepter на цель и по таймингу кастует Requiem of Souls.
 
 ## Tinker
 ```
 Soul Ring > Blink > Hex > Dagon > Laser > Missile > Rearm
 ```
-После нажания F прожимается Soul Ring, Blink под курсор и остальные способности. Важно: держи курсор на цели!
+*Важно: держи курсор на цели!*  
 
 ## Enigma
 ```
-BKB > Blink > Midnight Pulse > Black Hole
+Blink > Midnight Pulse > Black Hole
 ```
-После нажания F прожимается BKB, Blink под курсор, Midnight Pulse, Black Hole.
+*Можно добавить костомный предмет*

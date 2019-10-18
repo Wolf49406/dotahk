@@ -4,11 +4,12 @@
 #SingleInstance, force
 #Persistent
 
-~e::
-BlockInput, MouseMove     ; Блок ввода с мыши
+f::  ; Кнопка для комбо
+SendInput e  ; X-Marks
+BlockInput, MouseMove  ; Блок ввода с мыши
 Sleep 100
-SendInput q               ; Torrent
+SendInput q  ; Torrent
 BlockInput, MouseMoveOff  ; Отключение блока
 Sleep 1500
-SendInput e               ; X-Marks
+SendInput e  ; X-Marks
 return
