@@ -39,11 +39,6 @@ Blink Dagger > BladeMail > Berserker's Call
 ```
 *Можно добавить свой предмет*
 
-## Shadow Fiend
-```
-Eul's Scepter > Requiem of Souls
-```
-
 ## Tinker
 ```
 Soul Ring > Blink > Hex > Dagon > Laser > Missile > Rearm
