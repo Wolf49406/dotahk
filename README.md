@@ -3,9 +3,11 @@
 Набор ahk-скриптов улучшающих геймплей Dota 2  
   
 *Требуется установленный [autohotkey](https://www.autohotkey.com/)*  
-*Для использования обычных клавиш (не Tab/Shift/Ctrl/etc) - замени {key} на key, без скобок.*  
+*Для использования обычных клавиш (не Tab/Shift/Ctrl/etc) - замени {key} на key*  
 *Все функции работают только с использованием "быстрого применения"*
-
+  
+Все файлы с пояснениями, все кдавиши можно изменить  
+  
 ## Legion Commander
 ```
 Blade Mail > Press the Attack > Blink Dagger.
@@ -44,3 +46,11 @@ Blink Dagger > BladeMail > Berserker's Call
 Soul Ring > Blink > Hex > Dagon > Laser > Missile > Rearm
 ```
 *Важно: держи курсор на цели!*
+
+## Meepo
+```
+Poof > Blink Dagger
+
+## Invoker
+```
+Ghost Walk > Wex+Wex+Wex
