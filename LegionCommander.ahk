@@ -4,15 +4,20 @@
 #SingleInstance, force
 #Persistent
 
+; Ниже настраиваются твои кнопки
+BladeMail = {tab}
+Blink = {space}
+Etc = {MButton} ; Любой твой предмет (разкомментируй ниже)
+
 f:: ; Кнопка для комбо
-SendInput {TAB}  ; BladeMail
-Sleep 100  ; Задержка для оптимизации
+SendInput %BladeMail%
+Sleep 100
 SendInput !w  ; Press the Attack
-Sleep 300  ; Анимация каста Press the Attack
-SendInput {space}  ; Blink Dagger под курсор
+Sleep 300
+SendInput %Blink%
 
 ;Sleep 150
-;SendInput {MButton}  ; BKB/Satanic/Etc (раскомментируй эту и предыдущую строчку, если нужно)
+;SendInput %Etc%  ; (разкомментируй (удали ;) эту и предыдущую строку, если нужно)
 
 Loop 30          ;
 {                ;

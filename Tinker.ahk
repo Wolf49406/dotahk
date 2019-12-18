@@ -1,18 +1,21 @@
-#NoEnv
+﻿#NoEnv
 #UseHook
 #InstallKeybdHook
 #SingleInstance, force
 #Persistent
 
-f::
-SendInput 3  ; Soul Ring
-Sleep 200
-SendInput {SPACE}  ; Blink
-Sleep 400
-SendInput {TAB}  ; Hex
-Sleep 400
-SendInput {MButton}  ; Dagon (колесо мыши)
-Sleep 400
+; Ниже настраиваются твои кнопки
+Ring = {c} 		; Soul Ring
+Sheep = {tab} 		; Dagon
+Dagon = {MButton}	; Hex
+
+f:: ; Кнопка бинда
+SendInput %Ring%
+Sleep 100
+SendInput %Sheep%
+Sleep 100
+SendInput %Dagon%
+Sleep 100
 SendInput q  ; Laser
 Sleep 500
 SendInput w  ; Missile
