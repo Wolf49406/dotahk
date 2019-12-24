@@ -1,10 +1,9 @@
-#NoEnv
-#UseHook
-#InstallKeybdHook
-#SingleInstance, force
-#Persistent
+#Persistent, #InstallKeybdHook, #NoEnv, #SingleInstance Force, SendMode Input, SetWorkingDir %A_ScriptDir%
+IniRead, Combo, Config.ini, Keys, combokey
+Hotkey, %Combo%, Hotkey
+Return
 
-f::  ; Кнопка для комбо
+Hotkey:
 SendInput e  ; X-Marks
 BlockInput, MouseMove  ; Блок ввода с мыши
 Sleep 100
