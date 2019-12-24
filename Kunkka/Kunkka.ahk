@@ -1,4 +1,9 @@
-#Persistent, #InstallKeybdHook, #NoEnv, #SingleInstance Force, SendMode Input, SetWorkingDir %A_ScriptDir%
+#SingleInstance Force
+#InstallKeybdHook
+#NoEnv
+SendMode Input
+SetWorkingDir %A_ScriptDir%
+SetBatchLines, -1
 IniRead, Combo, Config.ini, Keys, combokey
 Hotkey, %Combo%, Hotkey
 Return

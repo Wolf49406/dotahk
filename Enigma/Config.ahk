@@ -1,4 +1,9 @@
-﻿#InstallKeybdHook, #NoEnv, #SingleInstance Force, SendMode Input, SetWorkingDir %A_ScriptDir%, SetBatchLines, -1
+﻿#SingleInstance Force
+#InstallKeybdHook
+#NoEnv
+SendMode Input
+SetWorkingDir %A_ScriptDir%
+SetBatchLines, -1
 IniRead, Key1, Config.ini, Keys, KEY1, % A_Space
 IniRead, Key2, Config.ini, Keys, KEY2, % A_Space
 IniRead, IsEnabled, Config.ini, CustomItem, Enabled
@@ -54,5 +59,5 @@ SaveConfig:
  IniWrite, %A1%, Config.ini, Keys, Key1
  IniWrite, %A2%, Config.ini, Keys, Key2
  IniWrite, %A4%, Config.ini, Keys, combokey
-ExitApp
+ Run Enigma.ahk
 return

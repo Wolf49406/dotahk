@@ -1,4 +1,9 @@
-﻿#InstallKeybdHook, #NoEnv, #SingleInstance Force, SendMode Input, SetWorkingDir %A_ScriptDir%
+﻿#SingleInstance Force
+#InstallKeybdHook
+#NoEnv
+SendMode Input
+SetWorkingDir %A_ScriptDir%
+SetBatchLines, -1
 IniRead, IsEnabled3, Config.ini, Meepos, 3
 IniRead, IsEnabled4, Config.ini, Meepos, 4
 IniRead, IsEnabled5, Config.ini, Meepos, 5

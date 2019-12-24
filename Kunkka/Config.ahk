@@ -1,4 +1,9 @@
-﻿#InstallKeybdHook, #NoEnv, #SingleInstance Force, SendMode Input, SetWorkingDir %A_ScriptDir%, SetBatchLines, -1
+﻿#SingleInstance Force
+#InstallKeybdHook
+#NoEnv
+SendMode Input
+SetWorkingDir %A_ScriptDir%
+SetBatchLines, -1
 IniRead, combokey, Config.ini, Keys, combokey, % A_Space
 Gui Add, Text, x9 y49 w120 h23 +0x200, Кнопка комбо:
 Gui Add, Hotkey, vA4 x89 y150 w120 h21, % combokey
@@ -41,5 +46,5 @@ HotkeyCtrlHasFocus() {
 SaveConfig:
  Gui, Submit, NoHide
  IniWrite, %A4%, Config.ini, Keys, combokey
-ExitApp
+ Run Kunkka.ahk
 return

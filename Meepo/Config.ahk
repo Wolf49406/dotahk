@@ -1,4 +1,9 @@
-﻿#InstallKeybdHook, #NoEnv, #SingleInstance Force, SendMode Input, SetWorkingDir %A_ScriptDir%, SetBatchLines, -1
+﻿#SingleInstance Force
+#InstallKeybdHook
+#NoEnv
+SendMode Input
+SetWorkingDir %A_ScriptDir%
+SetBatchLines, -1
 IniRead, Key1, Config.ini, Keys, KEY1, % A_Space
 IniRead, Key2, Config.ini, Keys, KEY2, % A_Space
 IniRead, 3, Config.ini, Meepos, 3
@@ -62,5 +67,5 @@ SaveConfig:
  IniWrite, %18lvl%, Config.ini, Meepos, 4
  IniWrite, %aghanim%, Config.ini, Meepos, 5
  IniWrite, %A4%, Config.ini, Keys, combokey
-ExitApp
+ Run Meepo.ahk
 return

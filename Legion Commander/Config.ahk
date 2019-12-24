@@ -1,4 +1,9 @@
-﻿#InstallKeybdHook, #NoEnv, #SingleInstance Force, SendMode Input, SetWorkingDir %A_ScriptDir%, SetBatchLines, -1
+﻿#SingleInstance Force
+#InstallKeybdHook
+#NoEnv
+SendMode Input
+SetWorkingDir %A_ScriptDir%
+SetBatchLines, -1
 IniRead, Key1, Config.ini, Keys, KEY1, % A_Space
 IniRead, Key2, Config.ini, Keys, KEY2, % A_Space
 IniRead, Key3, Config.ini, Keys, KEY3, % A_Space
@@ -58,5 +63,5 @@ SaveConfig:
  IniWrite, %A2%, Config.ini, Keys, Key2
  IniWrite, %A3%, Config.ini, Keys, Key3
  IniWrite, %A4%, Config.ini, Keys, combokey
-ExitApp
+ Run LegionCommander.ahk
 return

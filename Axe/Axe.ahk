@@ -1,4 +1,9 @@
-#Persistent, #InstallKeybdHook, #NoEnv, #SingleInstance Force, SendMode Input, SetWorkingDir %A_ScriptDir%
+#SingleInstance Force
+#InstallKeybdHook
+#NoEnv
+SendMode Input
+SetWorkingDir %A_ScriptDir%
+SetBatchLines, -1
 IniRead, IsEnabled, Config.ini, CustomItem, Enabled
 IniRead, Blink, Config.ini, Keys, key1
 IniRead, BladeMail, Config.ini, Keys, key2
