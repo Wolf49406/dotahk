@@ -47,5 +47,6 @@ SaveConfig:
  IniWrite, %OneCB%, Config.ini, CustomItem, Enabled
  IniWrite, %A1%, Config.ini, Keys, Key1
  IniWrite, %A4%, Config.ini, Keys, combokey
+ Run Lina.ahk
 ExitApp
 return

@@ -42,5 +42,6 @@ SaveConfig:
  Gui, Submit, NoHide
  GuiControlGet, %A_Index%
  IniWrite, %A4%, Config.ini, Keys, combokey
+ Run Invoker.ahk
 ExitApp
 return
