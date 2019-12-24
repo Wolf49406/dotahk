@@ -41,6 +41,5 @@ HotkeyCtrlHasFocus() {
 SaveConfig:
  Gui, Submit, NoHide
  IniWrite, %A4%, Config.ini, Keys, combokey
- Run Kunkka.ahk
 ExitApp
 return

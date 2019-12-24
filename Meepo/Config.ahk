@@ -60,6 +60,6 @@ SaveConfig:
  IniWrite, %18lvl%, Config.ini, Meepos, 4
  IniWrite, %aghanim%, Config.ini, Meepos, 5
  IniWrite, %A4%, Config.ini, Keys, combokey
- Run Meepo.ahk
+
 ExitApp
 return

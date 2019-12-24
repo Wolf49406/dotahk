@@ -54,6 +54,5 @@ SaveConfig:
  IniWrite, %A1%, Config.ini, Keys, Key1
  IniWrite, %A2%, Config.ini, Keys, Key2
  IniWrite, %A4%, Config.ini, Keys, combokey
- Run Enigma.ahk
 ExitApp
 return

@@ -58,6 +58,5 @@ SaveConfig:
  IniWrite, %A2%, Config.ini, Keys, Key2
  IniWrite, %A3%, Config.ini, Keys, Key3
  IniWrite, %A4%, Config.ini, Keys, combokey
- Run LegionCommander.ahk
 ExitApp
 return
