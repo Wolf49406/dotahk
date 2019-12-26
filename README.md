@@ -50,7 +50,14 @@ Soul Ring > Blink > Hex > Dagon > Laser > Missile > Rearm
 ## Meepo
 ```
 Poof > Blink Dagger
+```
 
 ## Invoker
 ```
-Ghost Walk > Wex+Wex+Wex
+Ghost Walk > Wex+Wex+Wex > Invoke
+```
+
+## Shadow Fiend
+```
+Поворот в сторону курсора > Shadowraze
+```
