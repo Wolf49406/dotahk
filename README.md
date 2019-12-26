@@ -1,13 +1,14 @@
 # Dota2 AutoHotKey scripts
-
+  
 Набор ahk-скриптов улучшающих геймплей Dota 2  
-  
+    
 *Требуется установленный [autohotkey](https://www.autohotkey.com/)*  
-*Для использования обычных клавиш (не Tab/Shift/Ctrl/etc) - замени {key} на key*  
-*Все функции работают только с использованием "быстрого применения"*
+*Все скрипты работают только с использованием "быстрого применения"*  
+*Все клавиши настраиваются через удобный GUI*  
   
-Все файлы с пояснениями, все клавиши можно изменить  
   
+# Список скриптов:  
+    
 ## Legion Commander
 ```
 Blade Mail > Press the Attack > Blink Dagger.
@@ -30,11 +31,6 @@ Blink > Midnight Pulse > Black Hole
 ```
 *Можно добавить свой предмет*
 
-## Jakiro
-```
-Eul's Scepter > Ice Path
-```
-
 ## Axe
 ```
 Blink Dagger > BladeMail > Berserker's Call
@@ -54,7 +50,7 @@ Poof > Blink Dagger
 
 ## Invoker
 ```
-Ghost Walk > Wex+Wex+Wex > Invoke
+Настраиваемый хоткей для быстрого каста любой способности
 ```
 
 ## Shadow Fiend
