@@ -1,14 +1,16 @@
-#NoEnv
-#UseHook
+#SingleInstance Force
 #InstallKeybdHook
-#SingleInstance, force
-#Persistent
+#NoEnv
+SendMode Input
+SetWorkingDir %A_ScriptDir%
+SetBatchLines, -1
+IniRead, Eul, Config.ini, Keys, key1
+IniRead, Combo, Config.ini, Keys, combokey
+Hotkey, %Combo%, Hotkey
+return
 
-; Ниже настраиваются твои кнопки
-Scepter = {tab} ; Eul's Scepter
-
-f::
-SendInput %Scepter%
+Hotkey:
+SendInput %Eul%
 MouseGetPos xpos, ypos  ; Запоминает позицию курсора
 Sleep 1600
 MouseMove %xpos%, %ypos%  ; Возвращает курсор на позицию
