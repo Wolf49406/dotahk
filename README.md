@@ -61,3 +61,8 @@ Ghost Walk > Wex+Wex+Wex > Invoke
 ```
 Поворот в сторону курсора > Shadowraze
 ```
+
+## Slark
+```
+Поворот в сторону курсора > Pounce
+```
