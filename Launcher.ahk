@@ -4,7 +4,7 @@
 SendMode Input
 SetWorkingDir %A_ScriptDir%
 SetBatchLines, -1
-Gui Add, DropDownList, x24 y20 w129 vList1 gOnSelect, Выбери героя||Axe|Enigma|Invoker|Kunkka|Legion Commander|Lina|Meepo|Tinker
+Gui Add, DropDownList, x24 y20 w129 vList1 gOnSelect, Выбери героя||Axe|Enigma|Invoker|Kunkka|Legion Commander|Lina|Meepo|Tinker|Shadow Fiend
 Gui Show, w177 h60, Launcher
 Return
 
@@ -26,5 +26,7 @@ else if (List1 = "Meepo")
 	Run %A_ScriptDir%/Meepo/Config.ahk
 else if (List1 = "Tinker")
 	Run %A_ScriptDir%/Tinker/Config.ahk
+else if (List1 = "Shadow Fiend")
+	Run %A_ScriptDir%/SF/Config.ahk
 GuiClose:
 ExitApp
