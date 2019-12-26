@@ -4,11 +4,41 @@
 SendMode Input
 SetWorkingDir %A_ScriptDir%
 SetBatchLines, -1
-IniRead, combokey, Config.ini, Keys, combokey, % A_Space
-Gui Add, Text, x9 y150 w120 h20 +0x200, Кнопка комбо:
-Gui Add, Hotkey, vA4 x89 y150 w120 h21, % combokey
-Gui Add, Button, gSaveConfig x129 y185 w80 h23, Save Config
-Gui Show, w260 h216, Hotkeys Config
+IniRead, Help, Config.ini, Keys, Help, % A_Space
+IniRead, CS, Config.ini, Keys, CS, % A_Space
+IniRead, GW, Config.ini, Keys, GW, % A_Space
+IniRead, IW, Config.ini, Keys, IW, % A_Space
+IniRead, EMP, Config.ini, Keys, EMP, % A_Space
+IniRead, T, Config.ini, Keys, T, % A_Space
+IniRead, A, Config.ini, Keys, A, % A_Space
+IniRead, SS, Config.ini, Keys, SS, % A_Space
+IniRead, FS, Config.ini, Keys, FS, % A_Space
+IniRead, CM, Config.ini, Keys, CM, % A_Space
+IniRead, DB, Config.ini, Keys, DB, % A_Space
+Gui Add, Text,, Cold Snap:
+Gui Add, Hotkey, vCS, % CS
+Gui Add, Text,, Ghost Walk:
+Gui Add, Hotkey, vGW, % GW
+Gui Add, Text,, Ice Wall:
+Gui Add, Hotkey, vIW, % IW
+Gui Add, Text,, EMP:
+Gui Add, Hotkey, vEMP, % EMP
+Gui Add, Text,, Tornado:
+Gui Add, Hotkey, vT, % T
+Gui Add, Text,, Alacrity:
+Gui Add, Hotkey, vA, % A
+Gui Add, Text,, Sun Strike:
+Gui Add, Hotkey, vSS, % SS
+Gui Add, Text,, Forge Spirit:
+Gui Add, Hotkey, vFS, % FS
+Gui Add, Text,, Chaos Meteor:
+Gui Add, Hotkey, vCM, % CM
+Gui Add, Text,, Deafening Blast:
+Gui Add, Hotkey, vDB, % DB
+Gui Add, Text,, Показать подсказку:
+Gui Add, Hotkey, vHelp, % Help
+Gui Add, Button, gSaveConfig, Save Config
+Gui Show, w210 h550, Hotkeys Config
 Return
 GuiClose:
  ExitApp
@@ -46,6 +76,16 @@ HotkeyCtrlHasFocus() {
 SaveConfig:
  Gui, Submit, NoHide
  GuiControlGet, %A_Index%
- IniWrite, %A4%, Config.ini, Keys, combokey
+ IniWrite, %CS%, Config.ini, Keys, CS
+ IniWrite, %GW%, Config.ini, Keys, GW
+ IniWrite, %IW%, Config.ini, Keys, IW
+ IniWrite, %EMP%, Config.ini, Keys, EMP
+ IniWrite, %T%, Config.ini, Keys, T
+ IniWrite, %A%, Config.ini, Keys, A
+ IniWrite, %SS%, Config.ini, Keys, SS
+ IniWrite, %FS%, Config.ini, Keys, FS
+ IniWrite, %CM%, Config.ini, Keys, CM
+ IniWrite, %DB%, Config.ini, Keys, DB
+ IniWrite, %Help%, Config.ini, Keys, Help
  Run Invoker.ahk
 return
