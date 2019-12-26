@@ -47,5 +47,5 @@ SaveConfig:
  Gui, Submit, NoHide
  GuiControlGet, %A_Index%
  IniWrite, %A1%, Config.ini, Keys, Movekey
- Run SF.ahk
+ Run ShadowFiend.ahk
 return
