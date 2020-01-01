@@ -1,9 +1,8 @@
 # Dota2 AutoHotKey scripts
     
-*Не хочешь устанавливать [autohotkey](https://www.autohotkey.com/)? Скачай [скомпилированную версию](https://github.com/Wolf49406/dotahk/releases/tag/Compiled)! *  
+*Не хочешь устанавливать [autohotkey](https://www.autohotkey.com/)? Скачай [скомпилированную версию](https://github.com/Wolf49406/dotahk/releases/tag/Compiled)!*  
 *Все скрипты работают только с использованием "быстрого применения"*  
 *Все клавиши настраиваются через удобный GUI*  
-  
   
 # Список скриптов:  
     
