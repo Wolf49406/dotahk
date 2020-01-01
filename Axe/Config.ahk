@@ -9,10 +9,10 @@ IniRead, Key2, Config.ini, Keys, KEY2, % A_Space
 IniRead, Key3, Config.ini, Keys, KEY3, % A_Space
 IniRead, IsEnabled, Config.ini, CustomItem, Enabled	
 IniRead, combokey, Config.ini, Keys, combokey, % A_Space
-Gui Add, Text, x10 y13, Blink:
-Gui Add, Text, x10 y43, Blade Mail:
-Gui Add, Text, x10 y73, Свой Предмет:
-Gui Add, Text, x163 y73, Вкл?
+Gui Add, Text, x10 y12, Blink:
+Gui Add, Text, x10 y42, Blade Mail:
+Gui Add, Text, x10 y72, Свой Предмет:
+Gui Add, Text, x163 y72, Вкл?
 Gui Add, Text, x10 y103, Кнопка комбо:
 Gui Add, Hotkey, vA1 x90 y10 w47 h20, % KEY1
 Gui Add, Hotkey, vA2 x90 y40 w47 h20, % KEY2

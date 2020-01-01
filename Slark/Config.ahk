@@ -5,10 +5,10 @@ SendMode Input
 SetWorkingDir %A_ScriptDir%
 SetBatchLines, -1
 IniRead, Movekey, Config.ini, Keys, Movekey, % A_Space
-Gui Add, Text, x9 y50 w120 h20 +0x200, Идти в направлении:
-Gui Add, Hotkey, vA1 x130 y50 w120 h21, % Movekey
-Gui Add, Button, gSaveConfig x129 y185 w80 h23, Save Config
-Gui Show, w260 h216, Hotkeys Config
+Gui Add, Text, x10 y12, Идти в направлении:
+Gui Add, Hotkey, vA1 x140 y10 w60 h20, % Movekey
+Gui Add, Button, gSaveConfig x10 y40, Сохранить и запустить
+Gui Show, w215 h75, Config
 Return
 GuiClose:
  ExitApp
@@ -48,4 +48,5 @@ SaveConfig:
  GuiControlGet, %A_Index%
  IniWrite, %A1%, Config.ini, Keys, Movekey
  Run Slark.ahk
+ ExitApp
 return

@@ -119,7 +119,7 @@ ShadowFiend:
 Gui, Submit, NoHide
 If box = 1 
 {
-	Run ShadowFiendConfig.ahk
+	Run ShadowFiend\Config.ahk
 }
 If box = 0 
 {

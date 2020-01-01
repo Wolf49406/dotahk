@@ -29,7 +29,7 @@ Hotkey, %Help%, Help
 Return
 
 Help:
-MsgBox ,
+MsgBox ,, Help,
 (LTrim
 Cold Snap: %CS%
 Ghost Walk: %GW%
@@ -42,8 +42,8 @@ Forge Spirit: %FS%
 Chaos Meteor: %CM%
 Deafening Blast: %DB%
 )
-
 return
+
 GW:
 SendInput q
 Sleep 100

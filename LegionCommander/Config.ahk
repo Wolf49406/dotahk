@@ -9,18 +9,18 @@ IniRead, Key2, Config.ini, Keys, KEY2, % A_Space
 IniRead, Key3, Config.ini, Keys, KEY3, % A_Space
 IniRead, IsEnabled, Config.ini, CustomItem, Enabled
 IniRead, combokey, Config.ini, Keys, combokey, % A_Space
-Gui Add, Text, x9 y49 w120 h23 +0x200, Blink:
-Gui Add, Text, x9 y81 w120 h23 +0x200, Blade Mail:
-Gui Add, Text, x9 y113 w120 h23 +0x200, Свой Предмет:
-Gui Add, Text, x225 y115 w30 h20 +0x200, Вкл?
-Gui Add, Text, x9 y150 w120 h20 +0x200, Кнопка комбо:
-Gui Add, Hotkey, vA1 x89 y51 w120 h21, % KEY1
-Gui Add, Hotkey, vA2 x89 y83 w120 h21, % KEY2
-Gui Add, Hotkey, vA3 x91 y115 w120 h21, % KEY3
-Gui Add, Hotkey, vA4 x89 y150 w120 h21, % combokey
-Gui Add, Checkbox, x215 y116 w10 h20 vOneCB Checked%IsEnabled%, Checkbox
-Gui Add, Button, gSaveConfig x129 y185 w80 h23, Save Config
-Gui Show, w260 h216, Hotkeys Config
+Gui Add, Text, x10 y12, Blink:
+Gui Add, Text, x10 y42, Blade Mail:
+Gui Add, Text, x10 y72, Свой Предмет:
+Gui Add, Text, x162 y72, Вкл?
+Gui Add, Text, x10 y102 w120 h20, Кнопка комбо:
+Gui Add, Hotkey, vA1 x90 y10 w47 h20, % KEY1
+Gui Add, Hotkey, vA2 x90 y40 w47 h20, % KEY2
+Gui Add, Hotkey, vA3 x90 y70 w47 h20, % KEY3
+Gui Add, Hotkey, vA4 x90 y100 w47 h20, % combokey
+Gui Add, Checkbox, x145 y70 w18 h18 vOneCB Checked%IsEnabled%
+Gui Add, Button, gSaveConfig x10 y130, Сохранить и запустить
+Gui Show, w200 h165, Config
 Return
 GuiClose:
  ExitApp

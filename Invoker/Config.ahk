@@ -37,8 +37,8 @@ Gui Add, Text,, Deafening Blast:
 Gui Add, Hotkey, vDB, % DB
 Gui Add, Text,, Показать подсказку:
 Gui Add, Hotkey, vHelp, % Help
-Gui Add, Button, gSaveConfig, Save Config
-Gui Show, w210 h550, Hotkeys Config
+Gui Add, Button, w121 h30 gSaveConfig, Сохранить и запустить
+Gui Show, w165 h550, Config
 Return
 GuiClose:
  ExitApp
@@ -88,4 +88,5 @@ SaveConfig:
  IniWrite, %DB%, Config.ini, Keys, DB
  IniWrite, %Help%, Config.ini, Keys, Help
  Run Invoker.ahk
+ ExitApp
 return
