@@ -13,11 +13,11 @@ Hotkey, %Combo%, Hotkey
 return
 
 Hotkey:
-SendInput %Ring%
+SendInput {%Ring%}
 Sleep 100
-SendInput %Hex%
+SendInput {%Hex%}
 Sleep 100
-SendInput %Dagon%
+SendInput {%Dagon%}
 Sleep 100
 SendInput q  ; Laser
 Sleep 500
