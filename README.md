@@ -67,7 +67,8 @@ Soul Ring > Blink > Hex > Dagon > Laser > Missile > Rearm
 ```
 *Важно: держи курсор на цели!*
 
-## Power Treads ![](https://github.com/Wolf49406/dotahk/blob/master/PowerTreads/PowerTreads.png =20x20)
+## Power Treads 
+![](https://github.com/Wolf49406/dotahk/blob/master/PowerTreads/PowerTreads.png | width=48)
 ```
 Переключает Power Treads на интеллект и обратно при использовании способностей
 ```
