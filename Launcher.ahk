@@ -150,6 +150,7 @@ If box = 0
 {
 	Run Tinker\Tinker.ahk
 }
+return
 
 PowerTreads:
 Gui, Submit, NoHide
