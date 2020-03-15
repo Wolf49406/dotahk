@@ -60,7 +60,7 @@ Invoker:
 Gui, Submit, NoHide
 If box = 1 
 {
-	Run Invoker\Config.ahk
+	Run Invoker\Invoker.ahk
 }
 If box = 0 
 {
