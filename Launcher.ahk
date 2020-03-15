@@ -36,11 +36,13 @@ Axe:
 Gui, Submit, NoHide
 If box = 1 
 {
-	Run Axe\Config.ahk
+	Run Axe\Config.ahk 
+ ExitApp
 }
 If box = 0 
 {
-	Run Axe\Axe.ahk
+	Run Axe\Axe.ahk 
+ ExitApp
 }
 return
 
@@ -48,11 +50,13 @@ Enigma:
 Gui, Submit, NoHide
 If box = 1 
 {
-	Run Enigma\Config.ahk
+	Run Enigma\Config.ahk 
+ ExitApp
 }
 If box = 0 
 {
-	Run Enigma\Enigma.ahk
+	Run Enigma\Enigma.ahk 
+ ExitApp
 }
 return
 
@@ -60,11 +64,13 @@ Invoker:
 Gui, Submit, NoHide
 If box = 1 
 {
-	Run Invoker\Invoker.ahk
+	Run Invoker\Invoker.ahk 
+ ExitApp
 }
 If box = 0 
 {
-	Run Invoker\Invoker.ahk
+	Run Invoker\Invoker.ahk 
+ ExitApp
 }
 return
 
@@ -72,11 +78,13 @@ Kunkka:
 Gui, Submit, NoHide
 If box = 1 
 {
-	Run Kunkka\Config.ahk
+	Run Kunkka\Config.ahk 
+ ExitApp
 }
 If box = 0 
 {
-	Run Kunkka\Kunkka.ahk
+	Run Kunkka\Kunkka.ahk 
+ ExitApp
 }
 return
 
@@ -84,11 +92,13 @@ LegionCommander:
 Gui, Submit, NoHide
 If box = 1 
 {
-	Run LegionCommander\Config.ahk
+	Run LegionCommander\Config.ahk 
+ ExitApp
 }
 If box = 0 
 {
-	Run LegionCommander\LegionCommander.ahk
+	Run LegionCommander\LegionCommander.ahk 
+ ExitApp
 }
 return
 
@@ -96,11 +106,13 @@ Lina:
 Gui, Submit, NoHide
 If box = 1 
 {
-	Run Lina\Config.ahk
+	Run Lina\Config.ahk 
+ ExitApp
 }
 If box = 0 
 {
-	Run Lina\Lina.ahk
+	Run Lina\Lina.ahk 
+ ExitApp
 }
 return
 
@@ -108,11 +120,13 @@ Meepo:
 Gui, Submit, NoHide
 If box = 1 
 {
-	Run Meepo\Config.ahk
+	Run Meepo\Config.ahk 
+ ExitApp
 }
 If box = 0 
 {
-	Run Meepo\Meepo.ahk
+	Run Meepo\Meepo.ahk 
+ ExitApp
 }
 return
 
@@ -120,11 +134,13 @@ ShadowFiend:
 Gui, Submit, NoHide
 If box = 1 
 {
-	Run ShadowFiend\Config.ahk
+	Run ShadowFiend\Config.ahk 
+ ExitApp
 }
 If box = 0 
 {
-	Run ShadowFiend\ShadowFiend.ahk
+	Run ShadowFiend\ShadowFiend.ahk 
+ ExitApp
 }
 return
 
@@ -132,11 +148,13 @@ Slark:
 Gui, Submit, NoHide
 If box = 1 
 {
-	Run Slark\Config.ahk
+	Run Slark\Config.ahk 
+ ExitApp
 }
 If box = 0 
 {
-	Run Slark\Slark.ahk
+	Run Slark\Slark.ahk 
+ ExitApp
 }
 return
 
@@ -144,11 +162,13 @@ Tinker:
 Gui, Submit, NoHide
 If box = 1 
 {
-	Run Tinker\Config.ahk
+	Run Tinker\Config.ahk 
+ ExitApp
 }
 If box = 0 
 {
-	Run Tinker\Tinker.ahk
+	Run Tinker\Tinker.ahk 
+ ExitApp
 }
 return
 
@@ -156,10 +176,12 @@ PowerTreads:
 Gui, Submit, NoHide
 If box = 1 
 {
-	Run PowerTreads\Config.ahk
+	Run PowerTreads\Config.ahk 
+ ExitApp
 }
 If box = 0 
 {
-	Run PowerTreads\PowerTreads.ahk
+	Run PowerTreads\PowerTreads.ahk 
+ ExitApp
 }
 return
