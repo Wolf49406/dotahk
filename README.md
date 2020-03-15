@@ -27,7 +27,7 @@ Blink > Midnight Pulse > Black Hole
 
 ## Invoker ![Invoker](https://github.com/Wolf49406/dotahk/blob/master/Invoker/Invoker.png)
 ```
-Настраиваемые хоткеи для быстрого каста любой способности
+Настраиваемые хоткеи для быстрого каста любой способности + панель с указанием хоткеев
 ```
 
 ## Kunkka ![Kunkka](https://github.com/Wolf49406/dotahk/blob/master/Kunkka/Kunkka.png)
