@@ -9,11 +9,11 @@ Hotkey, %Combo%, Hotkey
 Return
 
 Hotkey:
-SendInput e  ; X-Marks
+Send e  ; X-Marks
 BlockInput, MouseMove  ; Блок ввода с мыши
 Sleep 100
-SendInput q  ; Torrent
+Send q  ; Torrent
 BlockInput, MouseMoveOff  ; Отключение блока
 Sleep 1500
-SendInput e  ; X-Marks
+Send e  ; X-Marks
 return

@@ -12,16 +12,16 @@ Hotkey, %Combo%, Hotkey
 return
 
 Hotkey:
-SendInput {%BladeMail%}
+Send {%BladeMail%}
 Sleep 100
-SendInput !w
+Send !w
 Sleep 300
-SendInput {%Blink%}
+Send {%Blink%}
 
 if (IsEnabled = 1)
 	{
 	Sleep 150
-	SendInput {%Custom%}
+	Send {%Custom%}
 }
 
 else if (IsEnabled = 0)
@@ -30,7 +30,7 @@ else if (IsEnabled = 0)
 
 Loop 30
 {
-    SendInput r
+    Send r
     Sleep 30
 }
 return

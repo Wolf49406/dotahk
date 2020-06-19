@@ -88,109 +88,109 @@ Return
 
 
 GW:
-SendInput q
+Send q
 Sleep 100
-SendInput q
+Send q
 Sleep 100
-SendInput w
+Send w
 Sleep 100
-SendInput r
+Send r
 Sleep 100
-SendInput w
+Send w
 Sleep 100
-SendInput w
+Send w
 Sleep 100
-SendInput d
+Send d
 Return
 
 CS:
-SendInput q
+Send q
 Sleep 100
-SendInput q
+Send q
 Sleep 100
-SendInput q
+Send q
 Sleep 100
-SendInput r
+Send r
 Return
 
 IW:
-SendInput q
+Send q
 Sleep 100
-SendInput q
+Send q
 Sleep 100
-SendInput e
+Send e
 Sleep 100
-SendInput r
+Send r
 Return
 
 EMP:
-SendInput w
+Send w
 Sleep 100
-SendInput w
+Send w
 Sleep 100
-SendInput w
+Send w
 Sleep 100
-SendInput r
+Send r
 Return
 
 T:
-SendInput w
+Send w
 Sleep 100
-SendInput w
+Send w
 Sleep 100
-SendInput q
+Send q
 Sleep 100
-SendInput r
+Send r
 Return
 
 A:
-SendInput w
+Send w
 Sleep 100
-SendInput w
+Send w
 Sleep 100
-SendInput e
+Send e
 Sleep 100
-SendInput r
+Send r
 Return
 
 SS:
-SendInput e
+Send e
 Sleep 100
-SendInput e
+Send e
 Sleep 100
-SendInput e
+Send e
 Sleep 100
-SendInput r
+Send r
 Return
 
 FS:
-SendInput e
+Send e
 Sleep 100
-SendInput e
+Send e
 Sleep 100
-SendInput q
+Send q
 Sleep 100
-SendInput r
+Send r
 Return
 
 CM:
-SendInput e
+Send e
 Sleep 100
-SendInput e
+Send e
 Sleep 100
-SendInput w
+Send w
 Sleep 100
-SendInput r
+Send r
 Return
 
 DB:
-SendInput q
+Send q
 Sleep 100
-SendInput w
+Send w
 Sleep 100
-SendInput e
+Send e
 Sleep 100
-SendInput r
+Send r
 Return
 
 SaveConfig:

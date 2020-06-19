@@ -13,15 +13,15 @@ Hotkey, %Combo%, Hotkey
 return
 
 Hotkey:
-SendInput {%Ring%}
+Send {%Ring%}
 Sleep 100
-SendInput {%Hex%}
+Send {%Hex%}
 Sleep 100
-SendInput {%Dagon%}
+Send {%Dagon%}
 Sleep 100
-SendInput q  ; Laser
+Send q  ; Laser
 Sleep 500
-SendInput w  ; Missile
+Send w  ; Missile
 Sleep 200
-SendInput r  ; Rearm
+Send r  ; Rearm
 return
