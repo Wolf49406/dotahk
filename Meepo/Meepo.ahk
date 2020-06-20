@@ -15,16 +15,16 @@ return
 
 Hotkey:
 ; Два Мипошки
-Send {%Next%}
+SendInput {%Next%}
 Sleep 100
-Send w  ; Poof
+SendInput w  ; Poof
 Sleep 100
 
 if (IsEnabled3 = 1)		; Три Мипошки
 	{
-	Send {%Next%}
+	SendInput {%Next%}
 	Sleep 100
-	Send w  ; Poof
+	SendInput w  ; Poof
 	Sleep 100
 }
 else if (IsEnabled3 = 0)
@@ -33,9 +33,9 @@ else if (IsEnabled3 = 0)
 
 if (IsEnabled4 = 1)		; Четыре Мипошки
 	{
-	Send {%Next%}
+	SendInput {%Next%}
 	Sleep 100
-	Send w  ; Poof
+	SendInput w  ; Poof
 	Sleep 100
 }
 else if (IsEnabled4 = 0)
@@ -44,16 +44,16 @@ else if (IsEnabled4 = 0)
 
 if (IsEnabled5 = 1)		; Аганимный Мипошка
 	{
-	Send {%Next%}
+	SendInput {%Next%}
 	Sleep 100
-	Send w  ; Poof
+	SendInput w  ; Poof
 	Sleep 100
 }
 else if (IsEnabled5 = 0)
 	{
 }
 
-Send {%Next%}
+SendInput {%Next%}
 Sleep 100
-Send {%Blink%}
+SendInput {%Blink%}
 return

@@ -10,9 +10,9 @@ Hotkey, %Combo%, Hotkey
 return
 
 Hotkey:
-Send {%Eul%}
+SendInput {%Eul%}
 MouseGetPos xpos, ypos  ; Запоминает позицию курсора
 Sleep 1600
 MouseMove %xpos%, %ypos%  ; Возвращает курсор на позицию
-Send w  ; Light Strike Array
+SendInput w  ; Light Strike Array
 return

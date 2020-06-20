@@ -14,16 +14,16 @@ return
 Hotkey:
 if (IsEnabled = 1)
 	{
-	Send {%Custom%}
+	SendInput {%Custom%}
 	Sleep 100
 }
 
 else if (IsEnabled = 0)
 	{
 }
-Send {%Blink%}
+SendInput {%Blink%}
 Sleep 100
-Send e
+SendInput e
 Sleep 100
-Send r
+SendInput r
 return
